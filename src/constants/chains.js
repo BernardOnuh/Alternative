@@ -1,4 +1,4 @@
-export const networks = [1, 3,4,5,42,123, 11155111, 1337, 65110000, 65010000]
+export const networks = [1, 3,4,5,42,123, 11155111, 1337,10243, 65110000, 65010000]
 
 export const ChainId = {
   MAINNET: 1,
@@ -11,6 +11,7 @@ export const ChainId = {
   PARASTATE: 123,
   GANCHE: 1337,
   SEPOLIA: 11155111,
+  ARTHERA:10243,
 };
 
 export const routerAddress = new Map();
@@ -24,5 +25,7 @@ routerAddress.set(ChainId.AUTONITY, "0x04e555283D37aE85F6eB311fe2578F3B3f3dFc52"
 routerAddress.set(ChainId.PARASTATE, "0x07a1905D44feeA439ceFAabd11a63bEf684abE11");
 routerAddress.set(ChainId.GANCHE, "0x0F44AC51198D8F99847db6C431448dBC673428f1");
 routerAddress.set(ChainId.GANCHE, "0x0F44AC51198D8F99847db6C431448dBC673428f1");
-routerAddress.set(ChainId.SEPOLIA, "0xfdB233324a1b894Ce5592315f6a59E3D569828C6");
+routerAddress.set(ChainId.SEPOLIA, "0xe517d69a76F322d50c2A8D738b98bc3fDb7e0cc6");
+routerAddress.set(ChainId.ARTHERA, "0xfd89848127b285152262cda8A8CF54B16F6a8015");
+
 
